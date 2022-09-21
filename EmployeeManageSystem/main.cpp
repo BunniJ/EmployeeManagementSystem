@@ -21,28 +21,28 @@ int main(int argc, const char * argv[]) {
         cin>> choice;
 
         switch(choice) {
-            case 0: // Exit the system
+            case 0:
                 wm.exitSystem();
                 break;
-            case 1: // Add New Employee
+            case 1:
                 wm.addEmployee();
                 break;
-            case 2: // Show the Employee
+            case 2:
                 wm.showEmployee();
                 break;
-            case 3: // Delete the Employee
+            case 3:
                 wm.deleteEmployee();
                 break;
-            case 4: // Edit the Employee
+            case 4:
                 wm.editEmployee();
                 break;
-            case 5: // Search the Employee
+            case 5:
                 wm.findEmployee();
                 break;
-            case 6: // Sort the Employee
+            case 6:
                 wm.sortEmployee();
                 break;
-            case 7: // Delete All
+            case 7:
                 wm.cleanFile();
                 break;
             default:
